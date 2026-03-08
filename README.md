@@ -1,6 +1,6 @@
 # Link To Live Pages
 
-https://fullstackracc.github.io/Projects/anime-quotes-api
+https://fullstackracc.github.io/Projects/anime-quotes-api  
 https://fullstackracc.github.io/Projects/Balance_Sheet
 https://fullstackracc.github.io/Projects/Build_A_Recipe_Page
 https://fullstackracc.github.io/Projects/Build_A_Travel_Agency_Page
