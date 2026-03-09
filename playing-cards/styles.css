@@ -1,0 +1,95 @@
+/* || RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+#playing-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.card {
+  width: 275px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  box-shadow: rgba(0,0,0,0.3);
+  background-color: whitesmoke;
+  padding: 0.5rem;
+}
+
+.left {
+  align-self: flex-start;
+  font-size: 32px;
+}
+
+.middle {
+  align-self: center;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+
+.right {
+  align-self: flex-end;
+  font-size: 32px;
+  transform: rotate(180deg);
+}
+
+p {
+  line-height: 1;
+}
+
+.red {
+  color: red;
+}
+
+.ace {
+  font-size: 200px;
+}
+
+.reverse {
+  transform: rotate(180deg);
+}
+
+.grow {
+  flex-grow: 2;
+}
+
+.group {
+  display: flex;
+  gap: 75px;
+}
