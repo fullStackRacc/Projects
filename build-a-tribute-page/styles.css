@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #121212;
+}
+
+main {
+  background-color: #FFFFFF12;
+  margin: 3vw;
+  overflow: hidden;
+}
+
+.header {
+  max-width: 75vw;
+  margin: 3vw auto 0 auto;
+  padding: 3vw 0;
+  background-color: #FFFFFF1C;
+}
+
+#title, .subtitle, p, h2, blockquote {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 3vw auto;
+  font-size: 1.4rem; 
+}
+
+ul, li {
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  list-style-type: none;
+  margin: auto;
+  width: 50vw;
+}
+
+#title {
+  font-size: 3.5rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+}
+
+hr {
+  height: 1px;
+  background-color: #FFFFFF1C;
+  border: none;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  width: 90%;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#img-div {
+  display: block;
+  max-width: 75vw;
+  margin: auto;
+  padding: 3vw 0;
+  background-color: #FFFFFF1C;
+}
+
+#img-caption {
+  padding: 1.5vw 0;
+  width: 90%;
+  margin: auto;
+}
+
+#tribute-info {
+  display: block;
+  max-width: 75vw;
+  margin: 0 auto;
+  padding: 3vw 0;
+  background-color: #FFFFFF1C; 
+}
+
+blockquote {
+  margin: 0 auto;
+  padding: 3vw 0;
+  width: 75%;
+}
